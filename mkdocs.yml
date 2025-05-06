@@ -1,5 +1,73 @@
 site_name: Bulk Products
+site_url: http://localhost:8001
 nav:
-  - Home: index.md
-  - About: about.md
-theme: readthedocs
+  - Главная: index.md
+  - Установка: installation.md
+  - Быстрый старт: start.md
+  - Настройка модуля: settings.md
+  - 'Фильтрация и выбор товаров':
+      - product-search/index.md
+      - Фильтры: product-search/filters.md
+      - Выбор товаров: product-search/select.md
+  - 'Редактирование товаров':
+      - product-bulk-edit/index.md
+      - 'Название товара': product-bulk-edit/product_name.md
+      - 'Цена': product-bulk-edit/product_price.md
+      - 'Производитель': product-bulk-edit/product_manufacturer.md
+      - 'Модификаторы': product-bulk-edit/modificators.md
+  - 'Инструмент SEO Master':
+      - seo-master/index.md
+      - 'Ручной режим': seo-master/manually.md
+      - 'AI Powered': seo-master/ai-powered.md
+  - 'Удаление товаров':
+      - product-bulk-delete/index.md
+  - 'Предпросмотр изменений':
+      - simulation/index.md
+  - 'Применение изменений':
+      - bulk-process/index.md
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - glightbox
+
+plugins:
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_themed: false
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
