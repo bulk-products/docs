@@ -72,6 +72,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#выбор-товаров" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -253,10 +258,6 @@
     
       
         
-          
-        
-      
-        
       
         
       
@@ -276,9 +277,8 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
-              
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
   
   
   <span class="md-ellipsis">
@@ -287,14 +287,8 @@
   </span>
   
 
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
@@ -302,8 +296,6 @@
             Фильтрация и выбор товаров
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
             
               
                 
@@ -341,6 +333,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Выбор товаров
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -353,6 +360,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#способы-выбора-товаров" class="md-nav__link">
+    <span class="md-ellipsis">
+      Способы выбора товаров
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#почему-это-удобно" class="md-nav__link">
+    <span class="md-ellipsis">
+      Почему это удобно
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -377,6 +421,8 @@
       
         
           
+        
+      
         
       
         
@@ -516,6 +562,29 @@
   
   <span class="md-ellipsis">
     Модификаторы
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product-bulk-edit/variables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Переменные
     
   </span>
   
@@ -853,6 +922,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#способы-выбора-товаров" class="md-nav__link">
+    <span class="md-ellipsis">
+      Способы выбора товаров
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#почему-это-удобно" class="md-nav__link">
+    <span class="md-ellipsis">
+      Почему это удобно
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -868,9 +965,45 @@
 
 
 
-  <h1>Выбор товаров</h1>
-
-
+<h1 id="выбор-товаров">Выбор товаров<a class="headerlink" href="#выбор-товаров" title="Permanent link">&para;</a></h1>
+<p>После фильтрации вы можете легко выбрать те товары, с которыми хотите провести пакетные действия.</p>
+<p>Модуль <strong>Bulk Products</strong> предоставляет интуитивно понятный интерфейс для выделения нужных позиций.</p>
+<hr />
+<h2 id="способы-выбора-товаров">Способы выбора товаров<a class="headerlink" href="#способы-выбора-товаров" title="Permanent link">&para;</a></h2>
+<p>В таблице с результатами поиска рядом с каждым товаром отображается чекбокс.<br />
+Вы можете:</p>
+<ul>
+<li>Выделить товары вручную — один или несколько.</li>
+<li>Использовать выпадающее меню в заголовке таблицы для массовых действий.</li>
+</ul>
+<figure>
+<p><a class="glightbox" href="../img.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Выделение товаров вручную" src="../img.png" width="80%" /></a></p>
+<figcaption>
+<p>Выделение товаров вручную</p>
+</figcaption>
+</figure>
+<p>Массовые действия:</p>
+<ul>
+<li><strong>Выбрать всё</strong> — выделяет <strong>все товары</strong>, включая те, что не помещаются на текущей странице.</li>
+<li><strong>Выбрать товары на текущей странице</strong> — выделяет только те, что видимы сейчас.</li>
+<li><strong>Снять выделение</strong> — сбрасывает весь выбор.</li>
+</ul>
+<figure>
+<p><a class="glightbox" href="../img_1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Опции выбора товаров.png" src="../img_1.png" /></a></p>
+<figcaption>
+<p>Опции выбора товаров</p>
+</figcaption>
+</figure>
+<hr />
+<h2 id="почему-это-удобно">Почему это удобно<a class="headerlink" href="#почему-это-удобно" title="Permanent link">&para;</a></h2>
+<ul>
+<li>✅ Выбор конкретных позиций без необходимости повторного поиска.</li>
+<li>✅ Массовое выделение за один клик.</li>
+<li>✅ Поддержка как постраничного выбора, так и выбора всех результатов.</li>
+<li>✅ Состояние выбора сохраняется между шагами.</li>
+</ul>
+<p>Это делает процесс пакетного управления товарами <strong>максимально простым и прозрачным</strong> — даже при большом объёме данных.<br />
+Интерфейс спроектирован так, чтобы вы могли быстро видеть, какие товары выбраны, и при необходимости скорректировать выбор.</p>
 
 
 
@@ -925,7 +1058,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "toc.follow", "navigation.top", "glightbox"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["glightbox", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "toc.follow", "navigation.top", "glightbox"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
