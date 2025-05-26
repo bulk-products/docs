@@ -1,12 +1,12 @@
 site_name: Bulk Products
 site_url: http://localhost:8001
+strict: true
 nav:
   - Главная: index.md
   - Установка: installation.md
   - Быстрый старт: start.md
   - Настройка модуля: settings.md
   - 'Фильтрация и выбор товаров':
-      - product-search/index.md
       - Фильтры: product-search/filters.md
       - Выбор товаров: product-search/select.md
   - 'Редактирование товаров':
@@ -15,6 +15,7 @@ nav:
       - 'Цена': product-bulk-edit/product_price.md
       - 'Производитель': product-bulk-edit/product_manufacturer.md
       - 'Модификаторы': product-bulk-edit/modificators.md
+      - 'Переменные': product-bulk-edit/variables.md
   - 'Инструмент SEO Master':
       - seo-master/index.md
       - 'Ручной режим': seo-master/manually.md
@@ -40,11 +41,13 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.blocks.caption
 
 theme:
   name: material
   language: ru
   features:
+    - glightbox
     - navigation.tracking
     - navigation.sections
     - navigation.expand
@@ -65,7 +68,6 @@ plugins:
       draggable: true
       skip_classes:
         - custom-skip-class-name
-      auto_themed: false
       auto_caption: false
       caption_position: bottom
       background: white
