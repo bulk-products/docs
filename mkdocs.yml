@@ -16,17 +16,15 @@ nav:
       - 'Производитель': product-bulk-edit/product_manufacturer.md
       - 'Категории': product-bulk-edit/product_categories.md
       - 'Главная категория': product-bulk-edit/product_main_category.md
-      - 'Описание': product-bulk-edit/description.md
-      - 'HTML Tag': product-bulk-edit/html_tag.md
-      - 'H1': product-bulk-edit/h1.md
-      - 'MetaTag': product-bulk-edit/metatag.md
-      - 'Title': product-bulk-edit/title.md
-      - 'MetaTag Description': product-bulk-edit/metatag_description.md
-      - 'MetaTag Keywords': product-bulk-edit/metatag_keywords.md
-      - 'Код товара': product-bulk-edit/product_code.md
+      - 'Описание': product-bulk-edit/product_description.md
+      - 'HTML-тег H1': product-bulk-edit/product_meta_h1.md
+      - 'Мета-тег Title': product-bulk-edit/product_meta_title.md
+      - 'Мета-тег Description': product-bulk-edit/product_meta_description.md
+      - 'Мета-тег Keywords': product-bulk-edit/product_meta_keywords.md
+      - 'Код товара': product-bulk-edit/product_model.md
       - 'Количество': product-bulk-edit/quantity.md
       - 'Статус товара': product-bulk-edit/product_status.md
-      - 'Скидки': product-bulk-edit/discounts.md
+      - 'Скидки': product-bulk-edit/product_discounts.md
       - 'Модификаторы': product-bulk-edit/modificators.md
       - 'Переменные': product-bulk-edit/variables.md
   - 'Инструмент SEO Master':
