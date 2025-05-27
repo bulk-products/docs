@@ -66,6 +66,7 @@ theme:
     - toc.follow
     - navigation.top
     - glightbox
+    - navigation.instant
 
 plugins:
   - search
@@ -85,3 +86,8 @@ plugins:
       background: white
       shadow: true
       manual: false
+
+extra:
+  analytics:
+    provider: google
+    property: G-PV23YD5H71
