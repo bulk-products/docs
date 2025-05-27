@@ -1,5 +1,5 @@
 site_name: Bulk Products
-site_url: http://localhost:8001
+site_url: https://bulk-products.github.io/
 strict: true
 nav:
   - Главная: index.md
@@ -70,6 +70,7 @@ theme:
 
 plugins:
   - search
+  - social
   - glightbox:
       touchNavigation: true
       loop: false
