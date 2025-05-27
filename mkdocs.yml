@@ -68,6 +68,7 @@ theme:
     - glightbox
 
 plugins:
+  - search
   - glightbox:
       touchNavigation: true
       loop: false
