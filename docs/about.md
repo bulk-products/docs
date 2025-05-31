@@ -1,3 +1,10 @@
+---
+title: О модуле Bulk Products - Информация и возможности
+description: Узнайте больше о модуле Bulk Products для OpenCart. Возможности массового редактирования товаров, интеграция с AI и преимущества использования.
+keywords: bulk products информация, opencart модуль, массовое редактирование товаров, ai интеграция opencart
+author: Nikita Kiselev
+---
+
 # Simili saecula locuturo toris sensura
 
 ## Pectora suis residunt tumultu repandus utraque continget

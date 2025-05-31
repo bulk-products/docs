@@ -1,3 +1,10 @@
+---
+title: Установка Bulk Products в OpenCart
+description: Пошаговая инструкция по установке и настройке модуля Bulk Products для OpenCart. Системные требования, установка через админ-панель и инициализация.
+keywords: opencart установка, bulk products установка, ocstore установка модуля, настройка bulk products, инициализация bulk products
+author: Nikita Kiselev
+---
+
 ## Системные требования:
 
 * OpenCart 3.\* (OcStore 3.\*)

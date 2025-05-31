@@ -1,8 +1,8 @@
 ---
-title: Meta Tag Keywords
-summary: Инструмент «Meta Tag Keywords» позволяет массово задать или изменить ключевые слова (meta keywords) у товаров.
-authors:
-  - Nikita Kiselev
+title: Массовое изменение Meta Keywords товаров в Bulk Products
+description: Инструкция по работе с инструментом изменения Meta Keywords. SEO-оптимизация ключевых слов товаров, поддержка мультиязычности и использование переменных.
+keywords: bulk products meta keywords, opencart seo оптимизация, meta keywords товаров, ключевые слова opencart
+author: Nikita Kiselev
 date: 2025-05-27
 ---
 

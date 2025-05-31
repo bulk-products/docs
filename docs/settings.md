@@ -1,3 +1,10 @@
+---
+title: Настройки Bulk Products - Основные параметры и AI интеграция
+description: Подробное руководство по настройке модуля Bulk Products. Основные параметры, интеграция с AI-провайдерами (Yandex GPT, GigaChat, OpenRouter) и настройки для разработчиков.
+keywords: bulk products настройки, opencart настройки модуля, yandex gpt интеграция, gigachat opencart, openrouter ai настройка
+author: Nikita Kiselev
+---
+
 # Настройки модуля
 
 Модуль **Bulk Products** предлагает гибкую систему настроек, разделённую на три вкладки:

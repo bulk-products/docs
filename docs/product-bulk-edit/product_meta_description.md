@@ -1,3 +1,10 @@
+---
+title: Массовое изменение Meta Description товаров в Bulk Products
+description: Инструкция по работе с инструментом изменения Meta Description. SEO-оптимизация описаний товаров, поддержка мультиязычности и использование переменных.
+keywords: bulk products meta description, opencart seo оптимизация, meta description товаров, seo описания opencart
+author: Nikita Kiselev
+---
+
 Инструмент «Meta Tag Description» позволяет массово изменить SEO-описание (meta description) у выбранных товаров.
 
 Этот инструмент особенно полезен при SEO-оптимизации карточек товаров и формировании заголовков на страницах каталога.
